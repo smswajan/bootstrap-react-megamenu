@@ -22,35 +22,12 @@ a {
 }
 
 
-/* ============ desktop view ============ */
-@media all and (min-width: 992px) {
-
-  .navbar .has-megamenu{position:static!important;}
-  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
-
-}	
-/* ============ desktop view .end// ============ */
-
-/* ============ mobile view ============ */
-@media(max-width: 991px){
-  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
-    overflow-y: auto;
-      max-height: 90vh;
-      margin-top:10px;
-  }
+.not-found{
+  height:40vw;
+  width:100vh;
 }
 
-
-.navbar a{
-  color: #000000;
-}
-.navbar{
-  border-bottom: 1px solid rgba(128, 128, 128, 0.459);
-}
-.round-6{
-  border-radius: 6px;
-}
-
+/* side scrollbar design */
 
 body::-webkit-scrollbar {
   width: 0.6em;
@@ -67,7 +44,3 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px;
 }
 
-.not-found{
-  height:40vw;
-  width:100vh;
-}

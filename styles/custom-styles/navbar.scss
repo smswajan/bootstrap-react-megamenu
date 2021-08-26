@@ -1,11 +1,14 @@
-.site-logo{
-    height: 70px;
-    width: auto;
+// mega-menu on-hover open
+.insight-mega {
+    display: none !important;
 }
-.navbar-brand{
-    // padding:0 !important;
+.insight-drop:hover {
+    .insight-mega {
+        display: block !important;
+    }
 }
 
+// mega-menu styles
 .mega-item {
     h5 {
         color: #000;
@@ -23,12 +26,66 @@
         border: 1px solid rgba(0, 0, 0, 0.3) !important;
     }
 }
+.bg-dark{
+    .mega-item{
+        a{
+            color: #fff !important;
+        }
+    }
+}
+.dropdown-menu.megamenu.show {
+    box-shadow: 0px 7px 15px -1px rgba(56, 56, 56, 0.56);
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+    .navbar .has-megamenu {
+        position: static !important;
+    }
+    .navbar .megamenu {
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media (max-width: 991px) {
+    .navbar.fixed-top .navbar-collapse,
+    .navbar.sticky-top .navbar-collapse {
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top: 10px;
+    }
+}
+
+.navbar a {
+    color: #000000;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.459);
+}
+.round-6 {
+    border-radius: 6px;
+}
+.site-logo {
+    height: 70px;
+    width: auto;
+}
+.navbar-brand {
+    // padding:0 !important;
+}
+
 .text-blue {
-    color: #0000ff !important;
+    color: #ff5100 !important;
 }
 h5.mega-item {
     color: #000;
 }
+
 
 a.nav-link {
     padding: 18px 16px !important;
@@ -49,21 +106,15 @@ a.nav-link {
     &.active {
         border-bottom: 3px solid black;
     }
-    .single-item {
-        // margin-top: -8px;
-    }
+
     span.nav-link {
         padding: 0;
     }
-}
-.dropdown-menu.megamenu.show {
-    box-shadow: 0px 7px 15px -1px rgba(56, 56, 56, 0.56);
 }
 
 .font-18 {
     font-size: 18px !important;
 }
-
 // .nav-item{
 //     .dropdown-toggle:hover{
 //         .dropdown-menu.megamenu{
@@ -71,12 +122,3 @@ a.nav-link {
 //         }
 //     }
 // }
-.insight-mega{
-    display: none !important;
-}
-.insight-drop:hover{
-    .insight-mega {
-        display: block !important;
-    }
-}
-

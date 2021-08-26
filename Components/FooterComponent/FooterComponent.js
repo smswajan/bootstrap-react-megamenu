@@ -11,7 +11,7 @@ const FooterComponent = () => {
                         <div className="col-md-4 part-1 pr-0 pr-md-5 mb-5 mb-md-0">
                             <h5 className="text-white font-weight-bold mb-4">Contact info.</h5>
                             <p> <span className="d-inline-block"><FaMapMarkerAlt /> </span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vero sunt animi nisi officia consequuntur. </p>
-                            <p> <span className="d-inline-block"><FaEnvelope /> </span>contact@shubhankarconsulting.com</p>
+                            <p> <span className="d-inline-block"><FaEnvelope /> </span>contact@domain.com</p>
                             <p> <span className="d-inline-block"><FaPhoneAlt /> </span>+880 1753 5506688</p>
                             {/* <p> <span className="d-inline-block"><FaCalendar /> </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum quae maxime provident!</p> */}
                         </div>
