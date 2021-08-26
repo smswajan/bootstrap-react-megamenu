@@ -66,3 +66,8 @@ body::-webkit-scrollbar-thumb {
   background-color: #fc5e24;
   border-radius: 30px;
 }
+
+.not-found{
+  height:40vw;
+  width:100vh;
+}

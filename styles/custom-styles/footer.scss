@@ -1,0 +1,41 @@
+footer {
+    // background-image: url('/img/site-images/footer-bg.jpeg');
+    .part-1 {
+        p {
+            color: #ccc;
+            line-height: 25px;
+            font-size: 14px;
+            span {
+                color: #fc5e24;
+                margin-right: 12px;
+            }
+        }
+    }
+    ul.footer-links {
+        list-style: none;
+        list-style-position: outside;
+        margin: 0;
+        padding: 0;
+        li {
+            transition: 0.2s all ease-in-out;
+            color: #ccc;
+            cursor: pointer;
+            span {
+                font-size: 18px;
+                margin-right: 6px;
+                margin-top: -2px;
+            }
+            p {
+                font-size: 15px;
+                line-height: 25px;
+                margin-bottom: 8px;
+            }
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+}
+.white-top-border{
+    border-top: 1px solid rgba(139, 139, 139, 0.808);
+}
