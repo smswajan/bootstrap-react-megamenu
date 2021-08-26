@@ -11,7 +11,6 @@ const InsightMegaMenu = () => {
                             <div className="w-100 py-0 py-5 ">
                                 <div class="row d-flex justify-content-center">
                                     <div className="col-md-9">
-
                                         <div className="row">
                                             <div className="col-md-3 col-6 mega-item">
                                                 <h5 className="font-bold text-blue py-md-3">Industries & Services</h5>
