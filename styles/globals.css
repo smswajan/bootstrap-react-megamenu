@@ -1,16 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system,'Open Sans', sans-serif; */
+  font-family: 'Mulish', sans-serif;
 }
+/* @import "./bootstrap.scss"; */
 
 a {
-  color: inherit;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
+}
+
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+  .navbar .has-megamenu{position:static!important;}
+  .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}	
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+  .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+    overflow-y: auto;
+      max-height: 90vh;
+      margin-top:10px;
+  }
+}
+
+
+.navbar a{
+  color: #000000;
+}
+.navbar{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.459);
+}
+.round-6{
+  border-radius: 6px;
+}
+
+
+body::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+body::-webkit-scrollbar-track {
+  border-left: 1px solid rgba(#fc5e24, 0.984);
+  box-shadow: inset 0 0 6px #000103;
+  -webkit-box-shadow: inset 0 0 10px #000103;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fc5e24;
+  border-radius: 30px;
 }

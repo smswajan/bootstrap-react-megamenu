@@ -1,0 +1,31 @@
+$theme-colors: (
+    "primary": #fc5e24,
+    "danger": #ff4136,
+    "success": #64FFDA,
+    "dark": #040826,
+    "info": #2d3234,
+);
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+@media (min-width: 768px) {
+    .container{
+        max-width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        max-width: 970px;
+    }
+}
+@media (min-width: 1300px) {
+    .container{
+        max-width: 1210px;
+    }
+}
+@media (min-width: 1650px) {
+    .container{
+        max-width: 1400px;
+    }
+}
