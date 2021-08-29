@@ -25,9 +25,9 @@ const NavbarComponent = () => {
                         <ServicesMegaMenu />
                         <IndustriesMegaMenu />
                         <InsightMegaMenu />
-                        <Nav.Item>
+                        {/* <Nav.Item>
                             <Nav.Link eventKey="122" className=" single-item"><Link href="/about-us"><span className="nav-link">About US</span></Link></Nav.Link>
-                        </Nav.Item>
+                        </Nav.Item> */}
                         <NavDropdown className="dustu" title="Contact Us">
                             <NavDropdown.Item eventKey="11">
                                 <Link to="/complaints">Complaints</Link>
